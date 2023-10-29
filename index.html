@@ -59,21 +59,35 @@
                         <form class="service-form">
                             <label for="phone" class="service-label">
                                 <span class="input-label">Phone</span>
-                                <input type="text" class="service-input" />
+                                <input type="number" class="service-input" />
                                 <svg class="service-icon">
                                     <use href="./images/icons.svg#phone"></use>
                                 </svg>
                             </label>
                         </form>
                         <form class="service-form">
-                            <label for="phone" class="service-label">
+                            <label for="email" class="service-label">
                                 <span class="input-label">Email</span>
-                                <input type="text" class="service-input" />
+                                <input type="email" class="service-input" />
                                 <svg class="service-icon">
                                     <use href="./images/icons.svg#email"></use>
                                 </svg>
                             </label>
                         </form>
+                        <form class="service-form">
+                            <label for="comment" class="service-label">
+                                <span class="input-label">Comment</span>
+                                <textarea class="text-comment-box" placeholder="Text input"></textarea> 
+                            </label>
+                        </form>
+                        <label for="agree" class="service-agree">
+                            <input type="checkbox" id="checkbox" name="agree" class="agree-checkbox" />
+                            <svg class="checkbox-icon">
+                                <use href="./images/icons.svg#checkbox"></use>
+                            </svg>
+                            <span class="agree-message">I accept the terms and conditions of the <a href class="privacy">Privacy Policy</a></span>
+                        </label>
+                        <button class="send-btn" data-modal-open>Send</button>
                     </div>
                 </div>
             </div>
