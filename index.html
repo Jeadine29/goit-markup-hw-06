@@ -81,7 +81,7 @@
                             </label>
                         </form>
                         <label for="agree" class="service-agree">
-                            <input type="checkbox" id="checkbox" name="agree" class="agree-checkbox" />
+                            <input type="checkbox" name="agree" class="agree-checkbox" />
                             <svg class="checkbox-icon">
                                 <use href="./images/icons.svg#checkbox"></use>
                             </svg>
@@ -337,12 +337,13 @@
                     </svg>
                 </a>
             </div>
-            <div class="email-input">
-              <h4><a class="subscribe">Subscribe</a></h4>
+            <div class="footer-subscribe">
+              <p class="subscribe">Subscribe</p>
             </div>
-            <div class="email-input">
-              <h4><a class="e-mail">E-mail</a></h4>
-            </div>
+            <form>
+                <input type="text" placeholder="Email" class="input-sub"/>
+                <button class="btn-sub">Subscribe</button>
+            </form>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
